@@ -46,5 +46,5 @@ bool isFloat(std::string s);
 bool isIntChars(char c);
 bool isFloatChars(char c);
 
-std::string stripQuotes(std::string s);
+void stripQuotes(std::string &s);
 std::string fixFloatFormatting(std::string s);

@@ -200,14 +200,14 @@ bool isFloatChars(char c) {
 	return false;
 }
 
-std::string stripQuotes(std::string s) {
+void stripQuotes(std::string &s) {
 	std::string temp = "";
 
 	for (int i = 1; i < s.length() - 1; i++) {
 		temp.append(1, s.at(i));
 	}
 
-	return temp;
+	s = temp;
 }
 
 std::string fixFloatFormatting(std::string s) {

@@ -1,0 +1,13 @@
+
+*.vcxproj
+*.filters
+*.user
+*.obj
+x64/Debug/Truss.Build.CppClean.log
+*.recipe
+*.ilk
+x64/Debug/Truss.log
+*.tlog
+x64/Debug/Truss.vcxproj.FileListAbsolute.txt
+x64/Debug/vc143.idb
+x64/Debug/vc143.pdb

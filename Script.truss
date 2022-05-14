@@ -1,0 +1,7 @@
+//this is a comment
+var message "Hello, World!"
+var num1 .805
+var num2 1776
+println message
+println num
+print num2

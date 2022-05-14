@@ -113,6 +113,9 @@ int main() {
 		std::cout << "Could not open file";
 	}
 
+	std::cout << "\n\n\n";
+
+
 	file.close();
 
 	return 0;

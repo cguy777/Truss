@@ -51,7 +51,7 @@ Variable::Variable(std::string variableName, std::string val) {
 	vType = determineVariableType(val);
 
 	if (vType == VariableType::STRING) {
-		value = stripQuotes(value);
+		stripQuotes(value);
 	}
 
 	if (vType == VariableType::FLOAT) {

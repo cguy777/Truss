@@ -36,7 +36,6 @@
 
 #pragma once
 #include <string>
-#include "TrussFuncts.h"
 
 enum class VariableType {STRING, INTEGER, FLOAT, INVALID};
 
